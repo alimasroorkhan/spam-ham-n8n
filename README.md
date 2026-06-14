@@ -76,11 +76,10 @@ Key findings from EDA:
 
 **Handcrafted feature analysis.** Spam emails are more likely to contain URLs, exclamation marks, and dollar signs. URL presence and exclamation mark frequency were identified as the strongest indicators of spam.
 
-> **Diagram placeholder**: class balance pie chart
+<img width="1800" height="600" alt="class_distribution" src="https://github.com/user-attachments/assets/1b1b7cd3-8705-4457-b6f5-caf992924d73" />
+<img width="2100" height="1500" alt="length_distribution" src="https://github.com/user-attachments/assets/c4fe5255-e9ea-4215-ad61-2180cd1ee2c7" />
+<img width="2400" height="900" alt="bigrams" src="https://github.com/user-attachments/assets/2579ea26-c1d4-486f-9d35-4ef2d72a7e6e" />
 
-> **Diagram placeholder**: email length distribution by class (box plot)
-
-> **Diagram placeholder**: top 20 unigrams per class (bar chart)
 
 ---
 
@@ -166,11 +165,10 @@ Test set size: **38,319 emails**
 
 **False positives (ham flagged):** 495 legitimate emails were incorrectly flagged as spam, typically due to the presence of URLs, numerical patterns, or keywords commonly associated with spam.
 
-> **Diagram placeholder**: confusion matrix
+<img width="1050" height="900" alt="confusion_matrix" src="https://github.com/user-attachments/assets/5036baef-36c0-4212-ae94-80a06d4141bf" />
+<img width="1200" height="900" alt="roc_curve" src="https://github.com/user-attachments/assets/ea912c6f-adfe-479b-ba4d-b1bebf91e1a5" />
+<img width="2100" height="750" alt="confidence_distribution" src="https://github.com/user-attachments/assets/70e06941-f42a-433d-841e-dfab41ad8c07" />
 
-> **Diagram placeholder**: ROC curve
-
-> **Diagram placeholder**: prediction probability distribution (spam vs ham)
 
 ### Key Observations
 
