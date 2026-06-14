@@ -30,7 +30,7 @@
     {
       "parameters": {
         "method": "POST",
-        "url": "https://boxcar-reptile-ladies.ngrok-free.dev/predict",
+        "url": "https://YOUR_NGROK_URL/predict",
         "sendBody": true,
         "specifyBody": "json",
         "jsonBody": "={\n  \"text\": \"{{ $json.Subject }} {{ $json.snippet }}\"\n}",
